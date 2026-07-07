@@ -3,7 +3,7 @@ const totalImages = 77;
 export const imageMemories = Array.from({ length: totalImages }).map((_, i) => ({
   id: i + 1,
   type: "image",
-  src: `/memory/M${i + 1}.jpg`,
+  src: `/memory/M${i + 1}.JPG`,
 }));
 
   // 视频（手动加）
