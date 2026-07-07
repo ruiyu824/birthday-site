@@ -10,13 +10,13 @@ export const imageMemories = Array.from({ length: totalImages }).map((_, i) => (
   const videoMemories = [
   { id: 78,
     type: "video",
-    src: "/memory/V1.mp4",},
+    src: "/memory/V1.MP4",},
   { id: 79,
     type: "video",
-    src: "/memory/V2.mp4",},
+    src: "/memory/V2.MP4",},
   { id: 80,
     type: "video",
-    src: "/memory/V3.mp4",},
+    src: "/memory/V3.MP4",},
   ];
 
   // 合并
