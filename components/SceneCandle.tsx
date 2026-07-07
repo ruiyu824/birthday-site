@@ -19,7 +19,7 @@ export default function SceneCandle({ onNext, onBack, }: SceneCandleProps) {
       {/* 银河 */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <Image
-            src="/image/yinhe.png"
+            src="/image/yinhe.PNG"
             alt="yinhe"
             fill
             priority
@@ -33,8 +33,9 @@ export default function SceneCandle({ onNext, onBack, }: SceneCandleProps) {
         onClick={() => {if (step === 0) {setStep(1);}
         }}
       >
+        <div className="animate-floating">
           <Image
-            src="/image/bcake.png"
+            src="/image/bcake.PNG"
             alt="Cake"
             width={700}
             height={700}
@@ -42,7 +43,7 @@ export default function SceneCandle({ onNext, onBack, }: SceneCandleProps) {
             className="opacity-80"
           />
       </div>
-    
+    </div>
 
       {/* 🔥 火炬（点击cake后出现） */}
       <div
@@ -56,9 +57,9 @@ export default function SceneCandle({ onNext, onBack, }: SceneCandleProps) {
         `}
       >
         
-          <div className="animate-floating">
+          <div className="relative animate-floating">
             <Image
-                src="/image/torch.png"
+                src="/image/torch.PNG"
                 alt="torch"
                 width={200}
                 height={400}
@@ -68,7 +69,7 @@ export default function SceneCandle({ onNext, onBack, }: SceneCandleProps) {
 
         {/* 🔥 火炬火焰苗 */}
           <Image
-            src="/image/fire.png"
+            src="/image/fire.PNG"
             alt="Fire"
             width={80}
             height={120}
